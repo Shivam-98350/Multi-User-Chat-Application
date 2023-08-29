@@ -155,5 +155,7 @@ public class ClientChatScreen extends JFrame {
 		closeBtn.setFont(new Font("Times New Roman", Font.PLAIN, 14));
 		closeBtn.setBounds(276, 394, 89, 23);
 		contentPane.add(closeBtn);
+		
+		setVisible(true);
 	}
 }
